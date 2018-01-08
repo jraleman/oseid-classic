@@ -1,0 +1,8 @@
+# Directories
+
+release/
+
+# Files
+
+*.exe
+*.bat
