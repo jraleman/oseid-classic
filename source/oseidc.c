@@ -7,11 +7,11 @@
 #define PSO_NAME_SIZE_MAX 12
 #define PSO_NAME_SIZE_MIN 1
 
-const char* TOO_FEW_ARGS = "Sorry, too few arguments. Try adding the word \"Flowen\", something good might happen!\n";
+const char* TOO_FEW_ARGS = "Sorry, too few arguments. Everyone has a name, right ?\n";
 const char* TOO_MANY_ARGS = "Sorry, too many arguments. \"Kireek SucksBalls\" is not a valid PSO Name !\n";
 const char* NAME_TOO_SHORT = "Sorry, Name is empty. Please input some seccy err... sexy Name next time !\n";
 const char* NAME_TOO_LONG = "Sorry, Name must contain 12 characters tops !\n";
-const char* NAME_NOT_ASCII = "Sorry, Name contains non-ASCII character(s), those are the worst I tell you!\n";
+const char* NAME_NOT_ASCII = "Sorry, Name contains non-ASCII character(s), those are the worst!\n";
 
 char* pso_sectionid[] = { "Pinkal", "Redria", "Oran", "Yellowboze", "Whitill", "Viridia", "Greenill", "Skyly", "Bluefull", "Purplenum" };
 
