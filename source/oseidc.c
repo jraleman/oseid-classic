@@ -74,5 +74,26 @@ int main(int argc, char **argv)
 		printf(NAME_NOT_ASCII);
 		return 1;
 	}
-	printf("%s\n", sectionid(argv[1])); 
+	
+	char *result = sectionid(argv[1]);
+	if (strcmp(result, "Pinkal") == 0)
+		printf("\033[1;35mPinkal\n\033[0m");
+	else if (strcmp(result, "Redria") == 0)
+		printf("\033[0;31mRedria\n\033[0m");
+	else if (strcmp(result, "Oran") == 0)
+		printf("\033[0;33mOran\n\033[0m");
+	else if (strcmp(result, "Yellowboze") == 0)
+		printf("\033[1;33mYellowboze\n\033[0m");
+	else if (strcmp(result, "Whitill") == 0)
+		printf("Whitill\n");
+	else if (strcmp(result, "Viridia") == 0)
+		printf("\033[0;32mViridia\n\033[0m");
+	else if (strcmp(result, "Greenill") == 0)
+		printf("\033[1;32mGreenill\n\033[0m");
+	else if (strcmp(result, "Skyly") == 0)
+		printf("\033[1;36mSkyly\n\033[0m");
+	else if (strcmp(result, "Bluefull") == 0)
+		printf("\033[0;34mBluefull\n\033[0m");
+	else if (strcmp(result, "Purplenum") == 0)
+		printf("\033[0;35mPurplenum\n\033[0m");
 }
