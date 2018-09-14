@@ -2,7 +2,7 @@
 
 #define CHAR_ASCIITILDE 126
 #define CHAR_SPACE 32
-#define FALSE 1
+#define NOT_ASCII 1
 #define PSO_NAME_SIZE_MAX 12
 #define PSO_NAME_SIZE_MIN 1
 #define PSO_VALUE 5
@@ -77,7 +77,7 @@ int main(int argc, char **argv)
 		puts(NAME_TOO_LONG);
 		return 1;
 	}
-	if (is_ascii(argv[1]) == FALSE)
+	if (is_ascii(argv[1]) == NOT_ASCII)
 	{
 		puts(NAME_NOT_ASCII);
 		return 1;
